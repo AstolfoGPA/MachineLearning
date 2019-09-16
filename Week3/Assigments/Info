@@ -1,1 +1,18 @@
 Assigments
+Data extracted from the Kaggle compettition: Sept 2019
+https://www.kaggle.com/c/ieee-fraud-detection/data
+
+Code ideas from: 
+https://www.kaggle.com/viswajithkn/fraud-detection
+https://github.com/kapilnchauhan77/Credit-card-fraud-detector
+
+Used in colab.
+
+Some relevant points:
+The datasets are pretty big, so its necessary to downgrade the size of the files.
+
+It does not have a very good feature reduction, it only eliminates the columns with over 90% of Nan values. but it requires an improvements
+as a correleation of features to get the most relevant.
+
+It takes randoms values from the "isFraud == 0" and equals the amount of values to the "isFraud" amaount. This is done becuase it has 
+very few fraud cases.
