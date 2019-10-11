@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+
+ <center> <h2><font color='white'>Thanks, you paid <strong>$10.00</strong>!</font></h2>
+  <h2><font color='white'>Upload your image below</font></h2>
+ <img src="https://i.imgur.com/FfbkVS7.png" width="400" height="350" ></center>
+
+  <form action = "/uploaded" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+{% endblock %}
